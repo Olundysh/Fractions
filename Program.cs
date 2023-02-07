@@ -20,7 +20,7 @@ class Program
         {
             int b = rand.Next(1, 10000);
             int a = rand.Next(1, b);
-            var actual = Arr4_Task.Division(a, b);
+            var actual = Arr4Task.Division(a, b);
             var convert = Convertion(actual);
             var expect = TestDivision(a, b);
             if (convert != expect)
